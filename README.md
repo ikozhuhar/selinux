@@ -130,6 +130,12 @@ apt-get remove selinux*
 * **Суть работы** — сопоставление домена с типом через роль
 
 
+**Совместная работа DAC и MAC (LSM)**
+
+![image](https://github.com/user-attachments/assets/bddff82a-b2b4-4ed2-897c-8c2c67d922ad)
+
+
+
 
 
 

@@ -101,7 +101,7 @@ apt-get remove selinux*
 ○ user_u - все логины пользователей
 
 **RBAC — управление по ролям**  
-ФОТО
+![image](https://github.com/user-attachments/assets/603a1833-a594-4b48-a3c1-0b18e4f3c79a)
 
 
 **RBAC — роли по умолчанию**  
@@ -120,9 +120,9 @@ apt-get remove selinux*
 **Роль** - атрибут, который определяет, в какие домены может входить пользователь, то есть какие домены пользователь имеет право запускать
 
 **TE – Type Enforcement**  
-ФОТО  
-ФОТО  
-ФОТО  
+![image](https://github.com/user-attachments/assets/2482aa48-0e38-4660-9ace-44f2ec0db282)  
+
+![image](https://github.com/user-attachments/assets/3fa286b3-3cc3-4e09-a488-8fa5d51da1c5)  
 
 * Роль — набор правил
 * Домен — то, что разрешено процессу (субъекту)

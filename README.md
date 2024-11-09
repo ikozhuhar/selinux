@@ -132,7 +132,9 @@ apt-get remove selinux*
 
 **Совместная работа DAC и MAC (LSM)**
 
-![image](https://github.com/user-attachments/assets/bddff82a-b2b4-4ed2-897c-8c2c67d922ad)
+![image](https://github.com/user-attachments/assets/bddff82a-b2b4-4ed2-897c-8c2c67d922ad)  
+![image](https://github.com/user-attachments/assets/2112a7fd-7556-438f-a275-d3f9860167d3)
+
 
 
 

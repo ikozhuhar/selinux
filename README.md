@@ -15,7 +15,7 @@ SELinux по умолчанию, включена на Red Hat, CentOS, Fedora, 
 
 Очень часто, администраторы находят данную систему избыточной, поэтому отключают ее. Одной из причин является не самый очевидный процесс ее настройки. Однако, SELinux может существенно увеличить уровень безопасности системы.
 
-Проверить состояние SELinux можно командой `getenforce`. Возможны следующие варианты:
+Проверить состояние SELinux можно командой `getenforce` или `sestatus`. Для `sestatus` возможно нужно будет установить программу `policycoreutils` командой `sudo apt install policycoreutils` Возможны следующие варианты:
 
 * `Enforcing` — включен.
 * `Permissive` — включены только предупреждения.
@@ -137,7 +137,58 @@ apt-get remove selinux*
 ![image](https://github.com/user-attachments/assets/55a60e1c-02e4-4b6c-b685-1a7e06a3dc33)
 
 
+#### [[⬆]](#toc) <a name='3'>Как работать с SELinux?</a>
 
+**Основные инструменты для работы с SELinux**
+
+_Пакет setools-console_
+    * sesearch
+    * seinfo
+    * findcon
+    * getsebool
+    * setsebool
+    * semanage
+
+_Пакет policycoreutils-python_
+    * audit2allow
+    * audit2why
+
+_Пакет policycoreutils-newrole_
+    * newrole
+
+ _Пакет selinux-policy-mls_
+    * selinux-policy-mls
+
+**Примеры**
+```
+id -Z | ps -Z | ls -Z
+
+# смотрим юзеров
+semanege user -l
+
+# смотрим какие домены входят в роль
+seinfo ruser_r -x | less
+
+# смотрим что имеет отношение к порту 80
+seinfo --portcon=80 
+
+# смотрим что разрешено для ssh и http
+semanage port -l | grep ssh
+semanage port -l | grep http_port_t
+
+# разрешаем подключение по нестандартному порту 5022
+semanage port -a -t ssh_port_t -p tcp 5022
+
+# тоже разрешает порты
+setsebool -P nis_enable 1
+getsebool -a | less
+
+# удалить порт из разрешенных
+semanage port -d -t ssh_port_t -p tcp 5022
+
+# смотрим логи SELinux в отформатированном формате
+audit2why < /var/log/audit/audit.log
+```
 
 
 

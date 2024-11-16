@@ -58,6 +58,7 @@ sudo selinux-config-enforcing
 5. Проверьте статус SELinux:
 ```
 sestatus
+getenforce
 ```
 
 **Отключить SELinux**
@@ -87,6 +88,7 @@ apt-get remove selinux*
 _Просмотр текущего статуса_
 
 ```
+sestatus
 getenforce
 ```
 

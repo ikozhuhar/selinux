@@ -41,22 +41,32 @@ https://doc.ruscomtech.ru/index.php/%D0%92%D0%BA%D0%BB%D1%8E%D1%87%D0%B5%D0%BD%D
 _Чтобы настроить SELinux в Ubuntu_
 
 1. Используйте команду `apt` для установки следующих пакетов:
-```sudo apt install policycoreutils selinux-utils selinux-basics```
+```
+sudo apt install policycoreutils selinux-utils selinux-basics
+```
 2. Активируйте SELinux:
-```sudo selinux-activate```
+```
+sudo selinux-activate
+```
 * Вы должны увидеть:
 `SE Linux is activated. You may need to reboot now.`
 3. Установите SELinux в принудительный режим:
-```sudo selinux-config-enforcing```
+```
+sudo selinux-config-enforcing
+```
 4. Перезагрузите вашу систему. Перемаркировка SELinux будет запущена после перезагрузки системы. По завершении система автоматически перезагрузится ещё раз.
 5. Проверьте статус SELinux:
-```sestatus```
+``
+sestatus
+```
 
 _Отключить SELinux_
 
 Чтобы отключить SELinux
 1. Откройте файл конфигурации `/etc/selinux/config` и измените значение параметра SELINUX на `disabled`:
-``SELINUX=disabled``
+```
+SELINUX=disabled
+```
 2. Перезагрузите вашу систему.
 
 

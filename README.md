@@ -25,6 +25,64 @@ SELinux по умолчанию, включена на Red Hat, CentOS, Fedora, 
 
 https://doc.ruscomtech.ru/index.php/%D0%92%D0%BA%D0%BB%D1%8E%D1%87%D0%B5%D0%BD%D0%B8%D0%B5_%D0%B8%D0%BB%D0%B8_%D0%BE%D1%82%D0%BA%D0%BB%D1%8E%D1%87%D0%B5%D0%BD%D0%B8%D0%B5_SELinux
 
+
+==============================
+
+**Включить SELinux**
+
+Чтобы включить SELinux в вашей системе, убедитесь, что у вас установлены необходимые пакеты:
+
+* `policycoreutils`
+* `selinux-utils`
+* `selinux-basics`
+
+Также убедитесь, что вы активировали SELinux в своей системе.
+
+_Чтобы настроить SELinux в Ubuntu_
+
+1. Используйте команду `apt` для установки следующих пакетов:
+``sudo apt install policycoreutils selinux-utils selinux-basics``
+2. Активируйте SELinux:
+``sudo selinux-activate``
+* Вы должны увидеть:
+``SE Linux is activated. You may need to reboot now.``
+3. Установите SELinux в принудительный режим:
+``sudo selinux-config-enforcing``
+4. Перезагрузите вашу систему. Перемаркировка SELinux будет запущена после перезагрузки системы. По завершении система автоматически перезагрузится ещё раз.
+5. Проверьте статус SELinux:
+``sestatus``
+
+_Отключить SELinux_
+
+Чтобы отключить SELinux
+1. Откройте файл конфигурации `/etc/selinux/config` и измените значение параметра SELINUX на `disabled`:
+``SELINUX=disabled``
+2. Перезагрузите вашу систему.
+
+
+
+
+==================================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 _Просмотр текущего статуса_
 
 ```

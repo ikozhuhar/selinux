@@ -60,10 +60,10 @@ sudo selinux-config-enforcing
 sestatus
 ```
 
-_Отключить SELinux_
+**Отключить SELinux**
 
 Чтобы отключить SELinux
-1. Откройте файл конфигурации `/etc/selinux/config` и измените значение параметра SELINUX на `disabled`:
+1. Откройте файл `/etc/selinux/config` и измените значение параметра SELINUX на `disabled`:
 ```
 SELINUX=disabled
 ```

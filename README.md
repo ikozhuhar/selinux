@@ -23,7 +23,7 @@ SELinux по умолчанию, включена на Red Hat, CentOS, Fedora, 
 * `Permissive` — включены только предупреждения.
 * `Disabled` — отключен.
 
-**Включение или отключение SELinux**
+**Включение / отключение SELinux**
 
 https://doc.ruscomtech.ru/index.php/%D0%92%D0%BA%D0%BB%D1%8E%D1%87%D0%B5%D0%BD%D0%B8%D0%B5_%D0%B8%D0%BB%D0%B8_%D0%BE%D1%82%D0%BA%D0%BB%D1%8E%D1%87%D0%B5%D0%BD%D0%B8%D0%B5_SELinux
 

@@ -42,7 +42,7 @@ _Чтобы настроить SELinux в Ubuntu_
 
 1. Используйте команду `apt` для установки следующих пакетов:
 ```
-sudo apt install policycoreutils selinux-utils selinux-basics
+sudo apt install policycoreutils selinux-utils selinux-basics auditd
 ```
 2. Активируйте SELinux:
 ```
@@ -259,3 +259,4 @@ audit2why < /var/log/audit/audit.log
 5. [SELinux — описание и особенности работы с системой. Часть 2](https://habr.com/ru/companies/kingservers/articles/209970/)
 6. [SELinux - публикации](https://habr.com/ru/search/?q=SELinux&target_type=posts&order=relevance)
 7. [Руководство для начинающих по SELinux](https://habr.com/ru/companies/otus/articles/460387/)
+8. [Введение в SELinux под Ubuntu 20.04](https://ruvds.com/ru/helpcenter/vvedenie-v-selinux-pod-ubuntu-20-04/)

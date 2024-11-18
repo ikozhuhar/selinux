@@ -6,6 +6,8 @@
 3. [Как работать с SELinux?](#3)
 4. [Дополнительные источники](#recommended_sources)
 
+![photo_5321020668344659243_y](https://github.com/user-attachments/assets/531e19a2-d9e4-4836-b50f-48c329af5e9b)
+
 
 #### [[⬆]](#toc) <a name='1'>Что такое SELinux?</a>
 

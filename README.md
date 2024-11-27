@@ -181,7 +181,6 @@ getenforce
 
 ![image](https://github.com/user-attachments/assets/bddff82a-b2b4-4ed2-897c-8c2c67d922ad)  
 ![image](https://github.com/user-attachments/assets/0c528e93-6ac5-46f6-b6aa-773df5456b4f)
-![image](https://github.com/user-attachments/assets/55a60e1c-02e4-4b6c-b685-1a7e06a3dc33)
 
 
 #### [[⬆]](#toc) <a name='3'>Как работать с SELinux?</a>

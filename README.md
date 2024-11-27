@@ -9,6 +9,8 @@
 
 ![photo_5321020668344659243_y](https://github.com/user-attachments/assets/531e19a2-d9e4-4836-b50f-48c329af5e9b)
 
+![image](https://github.com/user-attachments/assets/0c528e93-6ac5-46f6-b6aa-773df5456b4f)
+
 
 #### [[⬆]](#toc) <a name='1'>Что такое SELinux?</a>
 
@@ -180,7 +182,6 @@ getenforce
 **Совместная работа DAC и MAC (LSM)**
 
 ![image](https://github.com/user-attachments/assets/bddff82a-b2b4-4ed2-897c-8c2c67d922ad)  
-![image](https://github.com/user-attachments/assets/0c528e93-6ac5-46f6-b6aa-773df5456b4f)
 
 
 #### [[⬆]](#toc) <a name='3'>Как работать с SELinux?</a>

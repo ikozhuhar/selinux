@@ -241,14 +241,17 @@ audit2why < /var/log/audit/audit.log
 #### [[⬆]](#toc) <a name='4'>Лабораторная работа</a>
 
 Смотрим статус SElinux
+
 ![image](https://github.com/user-attachments/assets/7f198085-1d7a-4200-8d89-faebb28bd2a0)
 
 Смотрим статус Nginx
+
 ![image](https://github.com/user-attachments/assets/d818a6e0-dfcf-422d-9ae8-73192483d3d7)
 
 ![image](https://github.com/user-attachments/assets/5a7525dd-563f-4367-bf32-2a470a7e9ffb)
 
 Меняем порт Nginx на нестандартный
+
 ![image](https://github.com/user-attachments/assets/b9054e4b-949e-4247-929e-59e2c46c6279)
 
 Получаем ошибку после рестарта сервера
@@ -256,6 +259,7 @@ audit2why < /var/log/audit/audit.log
 ![image](https://github.com/user-attachments/assets/a966092a-dcb6-4164-9be8-264d094eedf8)
 
 Видно, что нужного нам порта не в разрешенных для http
+
 ![image](https://github.com/user-attachments/assets/0ddaab90-5393-4a74-9816-b6c402366ff3)
 
 Из лога видно, что SElinux ругается на порт 8081
@@ -263,9 +267,11 @@ audit2why < /var/log/audit/audit.log
 ![image](https://github.com/user-attachments/assets/3dda85da-a915-4743-a560-3d1c2362aadf)
 
 Добавляем порт в разрешенные
+
 ![image](https://github.com/user-attachments/assets/5dc42f50-5142-4428-b58c-bbad4bf64388)
 
 Смотрим стутус и делаем рестарт
+
 ![image](https://github.com/user-attachments/assets/ce4b8768-95ec-4688-a069-16055b8e1545)
 
 После рестарта еще раз проверяем статус

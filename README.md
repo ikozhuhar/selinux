@@ -288,7 +288,8 @@ audit2why < /var/log/audit/audit.log
 
 ![image](https://github.com/user-attachments/assets/0981f0bb-3d34-4930-bc20-5a5c91501e34)
 
-![image](https://github.com/user-attachments/assets/c3758184-5e05-4fb6-ab6b-918899813251)
+![image](https://github.com/user-attachments/assets/550e65b2-d665-46e5-9f6e-a8e23f9f1bbf)
+
 
 
 

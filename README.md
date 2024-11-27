@@ -7,7 +7,6 @@
 4. [Лабораторная работа](#4)
 5. [Дополнительные источники](#recommended_sources)
 
-![photo_5321020668344659243_y](https://github.com/user-attachments/assets/531e19a2-d9e4-4836-b50f-48c329af5e9b)
 
 ![image](https://github.com/user-attachments/assets/0c528e93-6ac5-46f6-b6aa-773df5456b4f)
 

@@ -10,6 +10,9 @@
 
 ![image](https://github.com/user-attachments/assets/0c528e93-6ac5-46f6-b6aa-773df5456b4f)
 
+![SElinux](https://github.com/user-attachments/assets/9a7ef6cc-0ce1-48ba-836e-79c62b480187)
+
+
 
 #### [[⬆]](#toc) <a name='1'>Что такое SELinux?</a>
 

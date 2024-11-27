@@ -273,6 +273,12 @@ audit2why < /var/log/audit/audit.log
 
 ![image](https://github.com/user-attachments/assets/e75ea0ae-751c-47c0-ae91-94d9ed1b5a6e)
 
+![image](https://github.com/user-attachments/assets/811d7feb-9211-495f-98cf-4ae9db9d05c3)
+
+![image](https://github.com/user-attachments/assets/9c596f47-417d-4f28-85e0-a48c54888508)
+
+
+
 
 
 

@@ -24,13 +24,6 @@ SELinux по умолчанию, включена на Red Hat, CentOS, Fedora, 
 * `Permissive` — включены только предупреждения.
 * `Disabled` — отключен.
 
-**Включение / отключение SELinux**
-
-https://doc.ruscomtech.ru/index.php/%D0%92%D0%BA%D0%BB%D1%8E%D1%87%D0%B5%D0%BD%D0%B8%D0%B5_%D0%B8%D0%BB%D0%B8_%D0%BE%D1%82%D0%BA%D0%BB%D1%8E%D1%87%D0%B5%D0%BD%D0%B8%D0%B5_SELinux
-
-
-==============================
-
 **Включить SELinux**
 
 Чтобы включить SELinux в вашей системе, убедитесь, что у вас установлены необходимые пакеты:
@@ -148,6 +141,7 @@ getenforce
 ○ user_u - все логины пользователей
 
 **RBAC — управление по ролям**  
+
 ![image](https://github.com/user-attachments/assets/603a1833-a594-4b48-a3c1-0b18e4f3c79a)
 
 
@@ -167,6 +161,7 @@ getenforce
 **Роль** - атрибут, который определяет, в какие домены может входить пользователь, то есть какие домены пользователь имеет право запускать
 
 **TE – Type Enforcement**  
+
 ![image](https://github.com/user-attachments/assets/2482aa48-0e38-4660-9ace-44f2ec0db282)  
 
 ![image](https://github.com/user-attachments/assets/3fa286b3-3cc3-4e09-a488-8fa5d51da1c5)  

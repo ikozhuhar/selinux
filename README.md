@@ -277,15 +277,40 @@ audit2why < /var/log/audit/audit.log
 ![image](https://github.com/user-attachments/assets/9c596f47-417d-4f28-85e0-a48c54888508)
 
 
-## Ошибка при выполнении втрого задания. Ожидал, что воздастся две "машины" клиент и сервер, но содался только сервер.
+## Обеспечение работоспособности приложения при включенном SELinux
 
 ![image](https://github.com/user-attachments/assets/c9ce064e-4c18-4fbf-9f0d-0c6f00021588)
 
+Закходим на клиента
+
+![image](https://github.com/user-attachments/assets/f2c3454c-017f-435c-8bb6-a5f180950a15)
+
+При попытки обновления зоны получаем ошибку
+
+![image](https://github.com/user-attachments/assets/3ee08632-a573-47dd-8e4e-b6cdf2666988)
+
+Смотрим логи утилитой audit2why и видно что на клиенте ошибок нет
+
+![image](https://github.com/user-attachments/assets/a0974cfe-1c7a-4c6c-b05e-3dbc413f7ede)
+
+Получаем ошбку
+
+![image](https://github.com/user-attachments/assets/7fb3f81c-5a0e-42db-94c7-325c12ab8078)
+
+Изменим тип контекста безопасности для каталога /etc/named:
+```
+chcon -R -t named_zone_t /etc/named
+```
+Видно, что команда применилась и ошибки нет.
+
+![image](https://github.com/user-attachments/assets/3432dc1a-07ee-4b83-8c17-d15881c13431)
+![image](https://github.com/user-attachments/assets/b2b394df-343d-49e1-87a4-16d94e0222c2)
 
 
-![image](https://github.com/user-attachments/assets/0981f0bb-3d34-4930-bc20-5a5c91501e34)
 
-![image](https://github.com/user-attachments/assets/550e65b2-d665-46e5-9f6e-a8e23f9f1bbf)
+
+
+
 
 
 

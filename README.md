@@ -277,7 +277,7 @@ audit2why < /var/log/audit/audit.log
 ![image](https://github.com/user-attachments/assets/9c596f47-417d-4f28-85e0-a48c54888508)
 
 
-## Обеспечение работоспособности приложения при включенном SELinux
+## Обеспечение работы приложения при включенном SELinux
 
 ![image](https://github.com/user-attachments/assets/c9ce064e-4c18-4fbf-9f0d-0c6f00021588)
 
@@ -293,7 +293,7 @@ audit2why < /var/log/audit/audit.log
 
 ![image](https://github.com/user-attachments/assets/a0974cfe-1c7a-4c6c-b05e-3dbc413f7ede)
 
-Получаем ошбку
+Идем на сервер, смотрим логи и получаем ошбку
 
 ![image](https://github.com/user-attachments/assets/7fb3f81c-5a0e-42db-94c7-325c12ab8078)
 

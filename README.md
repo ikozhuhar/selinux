@@ -301,7 +301,11 @@ audit2why < /var/log/audit/audit.log
 ```
 chcon -R -t named_zone_t /etc/named
 ```
-Видно, что команда применилась и ошибки нет.
+Видно, что команда применилась и ошибки нет
+
+![image](https://github.com/user-attachments/assets/c004842e-19cd-4691-87ff-0b4cd015c714)
+
+Проверяем
 
 ![image](https://github.com/user-attachments/assets/3432dc1a-07ee-4b83-8c17-d15881c13431)
 ![image](https://github.com/user-attachments/assets/b2b394df-343d-49e1-87a4-16d94e0222c2)

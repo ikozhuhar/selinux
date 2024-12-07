@@ -281,11 +281,11 @@ audit2why < /var/log/audit/audit.log
 
 ![image](https://github.com/user-attachments/assets/c9ce064e-4c18-4fbf-9f0d-0c6f00021588)
 
-Закходим на клиента
+Заходим на клиента
 
 ![image](https://github.com/user-attachments/assets/f2c3454c-017f-435c-8bb6-a5f180950a15)
 
-При попытки обновления зоны получаем ошибку
+При попытке обновления зоны получаем ошибку
 
 ![image](https://github.com/user-attachments/assets/3ee08632-a573-47dd-8e4e-b6cdf2666988)
 
@@ -305,12 +305,6 @@ chcon -R -t named_zone_t /etc/named
 
 ![image](https://github.com/user-attachments/assets/3432dc1a-07ee-4b83-8c17-d15881c13431)
 ![image](https://github.com/user-attachments/assets/b2b394df-343d-49e1-87a4-16d94e0222c2)
-
-
-
-
-
-
 
 
 
